@@ -1,0 +1,116 @@
+.home-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.left-section,
+.right-section {
+  flex: 1;
+}
+
+.left-section {
+  max-width: 380px;
+  justify-content: center;
+}
+.profile-photo {
+  display: inline-block;
+}
+
+.profile-photo img {
+  display: inline-block;
+  width: 380px;
+  height: 480px;
+  object-fit: cover;
+  margin-bottom: 0;
+  padding: 0;
+  filter: drop-shadow(0 0 8em #7127ba);
+}
+
+.social-icons {
+  position: relative;
+
+  top: -40px;
+  left: 7vw;
+  max-width: 180px;
+}
+
+.social-icons img {
+  width: 40px;
+  height: 50px;
+  margin-right: 18px;
+}
+
+.social-icons img:hover {
+  transform: scale(1.2); 
+  opacity: 2;
+}
+
+.right-section {
+  max-width: 600px;
+}
+
+.greeting {
+  margin-bottom: 20px;
+  color: white;
+}
+
+.greeting h1 {
+  margin: 0px;
+}
+
+.description p {
+  color: white;
+  padding: 0px;
+  margin: 0px;
+}
+
+.resume-button button {
+  background-color: #7127ba;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+@media (max-width: 768px) {
+  .home-container {
+    flex-direction: column;
+    justify-content: center;
+    height: auto;
+  }
+  .left-section {
+    margin-left: 0;
+  }
+  .profile-photo img {
+    width: 250px;
+    height: 300px;
+    object-fit: cover;
+    margin: 0;
+  }
+  .social-icons {
+    position: relative;
+    top: -20px;
+    left: 15vw;
+  }
+  .social-icons img {
+    width: 30px;
+    height: 40px;
+    margin-right: 15px;
+  }
+
+  .left-section,
+  .right-section {
+    margin-top: 50px;
+  }
+
+  .right-section {
+    margin-top: 0px;
+    max-width: 300px;
+    text-align: center;
+  }
+}
