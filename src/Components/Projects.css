@@ -1,13 +1,29 @@
 .project {
   display: flex;
-  margin-bottom: 100px;
+  margin-bottom: 30px;
+  transition: transform 0.3s ease;
+}
+.dash-lines {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
 }
 
+.dash-line {
+  width: 20px;
+  height: 2px;
+  background-color: #ccc;
+  margin: 0 5px;
+}
+
+.dash-line.active {
+  background-color: #7127ba;
+}
 .proj-head h1 {
   text-align: center;
-
+  font-size: 40px;
   color: white;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
   margin-top: 50px;
 }
 
@@ -45,13 +61,13 @@
 .demo img {
   margin-top: -10px;
   margin-left: -10px;
-  width: 70px;
+  width: 55px;
   height: auto;
 }
 
 .git img {
-  margin-top: -5px;
-  width: 60px;
+  margin-top: -8px;
+  width: 50px;
   height: auto;
 }
 
@@ -66,14 +82,31 @@
   box-sizing: border-box;
   filter: drop-shadow(0 0 8em #7127ba);
 }
-
+.project-image:hover {
+  transform: scale(1.05);
+}
 .project-image img {
   width: calc(100%);
   height: auto;
 }
+.controls {
+  text-align: center;
+  margin-top: 0px;
+}
+.controls button {
+  margin: 0 10px;
+  padding: 10px 20px;
+  background-color: #7127ba;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 100px;
+}
+
 .proj-desc {
   background-color: rgba(105, 59, 137, 0.3);
-  padding: 10px;
+  padding: 5px;
   border-radius: 10px;
   backdrop-filter: blur(10px);
 
@@ -86,10 +119,16 @@
   color: white;
 }
 
+.carousel {
+  width: 100%;
+  transition: transform 0.3s ease;
+}
+
 @media (max-width: 768px) {
   .project {
     flex-direction: column;
     align-items: center;
+    transition: transform 0.3s ease;
   }
 
   .project-image {
@@ -125,5 +164,12 @@
     margin-top: -6px;
     width: 35px;
     height: auto;
+  }
+  .controls button {
+    margin-bottom: 70px;
+  }
+
+  .carousel{
+    transition: transform 0.3s ease;
   }
 }
