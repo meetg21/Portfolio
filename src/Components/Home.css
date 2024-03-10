@@ -3,6 +3,7 @@
   align-items: center;
   justify-content: center;
   height: 92vh;
+  margin-bottom: 100px;
 }
 
 .left-section,
@@ -82,6 +83,7 @@
     flex-direction: column;
     justify-content: center;
     height: auto;
+    margin-bottom: 100px;
   }
   .left-section {
     margin-left: 0;

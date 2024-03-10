@@ -1,4 +1,4 @@
-import React, { useState, useRef } from "react";
+import React, { useState } from "react";
 import "./Projects.css";
 import demoproj from "../assets/demoproj.png";
 import githubproj from "../assets/githubproj.png";
@@ -71,8 +71,8 @@ const Project = () => {
   };
 
   return (
-    <>
-      <div id="projects" className="proj-head">
+    <div id="projects">
+      <div className="proj-head">
         <h1>Projects</h1>
       </div>
       <div className="carousel">
@@ -125,7 +125,7 @@ const Project = () => {
           Next
         </button>
       </div>
-    </>
+    </div>
   );
 };
 
