@@ -1,0 +1,49 @@
+.mainhead {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.contactus-container {
+  padding-top: 30px;
+  height: 80vh;
+  width: 100vw;
+  max-width: 600px;
+}
+
+/* .contactus-container
+  form
+  .MuiOutlinedInput-root.Mui-focused
+  .MuiOutlinedInput-notchedOutline {
+  
+  border: 1px solid #7127ba;
+} */
+
+.contactus-container
+  form
+  .MuiOutlinedInput-root
+  .MuiOutlinedInput-notchedOutline {
+  border: 1px solid rgba(255, 255, 255, 0.3); /* Set the initial border color */
+}
+
+.contactus-container
+  form
+  .MuiOutlinedInput-root:hover
+  .MuiOutlinedInput-notchedOutline,
+.contactus-container
+  form
+  .MuiOutlinedInput-root.Mui-focused
+  .MuiOutlinedInput-notchedOutline {
+  border-color: #7127ba; /* Set the border color on hover and focus */
+}
+
+.contactus-container form .MuiOutlinedInput-root {
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .contactus-container {
+    width: 90vw;
+  }
+}

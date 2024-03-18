@@ -37,9 +37,14 @@
 
 .experience-list {
   display: flex;
+  padding: 20px;
   flex-direction: column;
+  border: 0.5px solid #7127ba;
+  border-radius: 20px;
   width: 100%;
-  /* background-color: aqua; */
+  /* border: 1px solid #7127ba; */
+  filter: drop-shadow(0 0 2em #7127ba);
+  background-color: #11071f;
 }
 .work-head h1 {
   text-align: center;
@@ -92,7 +97,6 @@ ul {
 .tech-stack {
   margin-bottom: 0px;
   display: flex;
-  /* flex-direction: column; */
   gap: 10px; /* Add gap between tech stack items */
   flex-wrap: wrap;
 }
