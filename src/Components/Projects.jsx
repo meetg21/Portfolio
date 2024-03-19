@@ -68,7 +68,7 @@ const Project = () => {
       image: PoleDetection,
       demoLink:
         "https://drive.google.com/file/d/1tFgJvfNkf8_Psh-HkCB49JYUVbG-uLTS/view?usp=sharing",
-      githubLink: "github-link",
+      githubLink: "https://drive.google.com/file/d/1tFgJvfNkf8_Psh-HkCB49JYUVbG-uLTS/view?usp=sharing",
     },
     {
       name: "Foodstagram",
