@@ -54,7 +54,7 @@ const Project = () => {
       name: "Prayaas",
       techStack: ["React.js", "Node.js", "Tensorflow", "Fast API", "MongoDB"],
       description:
-        "A Progressive Web App built to uplift the lives of small and marginal farmers in India.It established a farmer community with key components like a micro-credit loan system and contract farming,fostering collective growth. Additional features included a marketplace, plant disease detection, multi-language support, and news updates .This Project was among the Top 10 finalist at a Natinal Level Hackathon 'Hack4Change' hosted by Google and T-Hub ",
+        "A Progressive Web App built to uplift the lives of small and marginal farmers in India.It established a farmer community with key components like a micro-credit loan system and contract farming,fostering collective growth. Additional features included a marketplace, plant disease detection, multi-language support, and news updates .This Project was among the Top 10 finalist at a National Level Hackathon 'Hack4Change' hosted by Google and T-Hub ",
       image: Prayaas,
       demoLink: "https://youtu.be/nDpMw6HI5V0",
       githubLink:

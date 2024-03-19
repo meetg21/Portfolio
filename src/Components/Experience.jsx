@@ -21,17 +21,7 @@ const Experience = () => {
         "Communication",
       ],
     },
-    {
-      company: "MST Networks",
-      position: "Software Developer Intern",
-      duration: "Feb 2024 - Present",
-      employmentType: "Part-Time",
-      description: [
-        "Designed and built website for the company",
-        "Built Scripts,algorithms for different Security Services by the Company.",
-      ],
-      techStack: ["React.js", "Node.js", "Python"],
-    },
+    
     {
       company: "TIS",
       position: "Summer Intern",
