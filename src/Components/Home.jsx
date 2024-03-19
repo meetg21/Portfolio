@@ -15,13 +15,13 @@ const Home = () => {
           <img src={myPhoto} alt="My Photo" />
         </div>
         <div className="social-icons">
-          <a href="https://www.linkedin.com/in/meetg21/">
+          <a href="https://www.linkedin.com/in/meetg21/" target="_blank">
             <img src={linkedinIcon} alt="LinkedIn" />
           </a>
-          <a href="https://github.com/meetg21">
+          <a href="https://github.com/meetg21" target="_blank">
             <img src={githubIcon} alt="GitHub" />
           </a>
-          <a href="https://wa.me/7666272227?text=Connectedthroughportfolio">
+          <a href="https://wa.me/7666272227?text=Connectedthroughportfolio"  target="_blank">
             <img src={whatsappIcon} alt="WhatsApp" />
           </a>
         </div>
@@ -34,22 +34,14 @@ const Home = () => {
         </div>
         <div className="description">
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci
-            sequi voluptatum dolore consequuntur totam nam cum fuga eligendi
-            explicabo, ea dignissimos pariatur quod repellendus, sint, dolorem
-            deserunt unde provident aliquam! Asperiores quis in quos ut pariatur
-            aspernatur provident nisi sunt at. Temporibus mollitia dolore totam
-            quia quas iste, optio explicabo quis similique, tempora aliquid
-            saepe id possimus sint quibusdam a? Suscipit incidunt maxime
-            recusandae dolore facilis, accusantium at quaerat beatae, aliquid
-            sit, debitis in delectus nihil quidem eos minima assumenda optio
-            autem voluptatum quam animi culpa commodi eveniet? Nulla qui illo
-            nisi, rem voluptatum quidem suscipit ipsum ducimus quos minus culpa
-            blanditiis dolores optio molestiae deleniti ipsam quam a eaque.
-            Architecto libero voluptates quidem similique, earum maiores autem
-            velit odit consequatur repellendus reprehenderit soluta eos, illum
-            laboriosam fugit ullam sequi ratione magnam vero molestiae deleniti
-            in quos optio explicabo? Ducimus!
+            I am pursuing my Bachelors in Computer Engineering with a Honors in
+            Data Sciences from K.J Somaiya College of Engineering, Mumbai.{" "}
+            <br></br>Passionate about the intersection of technology and
+            innovation, I am particularly drawn to areas like Web and App
+            Development, Artificial Intelligence, and Machine Learning with good
+            experience in Robotics too.<br></br> I thrive on the challenge of
+            expanding my skill set and pushing the boundaries of what I can
+            achieve.
           </p>
         </div>
         <div className="resume-button">

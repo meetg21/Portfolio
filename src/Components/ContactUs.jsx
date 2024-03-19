@@ -47,7 +47,7 @@ const ContactUs = () => {
                 color: "#FFFFFF",
                 marginBottom: "30px",
                 textAlign: "center",
-                fontFamily: "Cormorant Upright",
+                fontFamily: "Poppins, serif",
               }}
             >
               Lets get in Touch!
@@ -68,7 +68,7 @@ const ContactUs = () => {
                   borderRadius: "20px",
                   marginLeft: "auto",
                   marginRight: "auto",
-
+                  fontFamily: "Poppins, serif",
                   display: "block",
                 }}
                 InputLabelProps={{ style: { color: "#7127ba" } }}
@@ -144,6 +144,7 @@ const ContactUs = () => {
                   background: "#7127ba",
                   display: "block",
                   margin: "0 auto",
+                  fontFamily: "Poppins, serif",
                 }}
               >
                 {loading ? "Sending..." : "Submit"}

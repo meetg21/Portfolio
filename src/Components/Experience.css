@@ -10,12 +10,14 @@
   margin-bottom: 70px;
   margin-top: 30px;
   font-size: 20px;
+  font-family: Poppins, serif;
 }
 
 .company-N {
   color: white;
   margin-right: 20px;
   cursor: pointer;
+  font-family: Poppins, serif;
 }
 
 .company-N.selected {
@@ -45,13 +47,15 @@
   /* border: 1px solid #7127ba; */
   filter: drop-shadow(0 0 2em #7127ba);
   background-color: #11071f;
+  font-family: Poppins, serif;
 }
 .work-head h1 {
   text-align: center;
-  font-size: 50px;
+  font-size: 40px;
   color: white;
   margin-bottom: 50px;
   margin-top: -20px;
+  font-family: Poppins, serif;
 }
 
 .experience-item {
@@ -68,30 +72,36 @@
 #position-name {
   font-size: 30px;
   margin-bottom: 5px;
+  font-family: Poppins, serif;
 }
 
 #duration {
   margin-top: 0px;
   margin-bottom: 5px;
+  font-family: Poppins, serif;
 }
 
 #typeemploy {
   margin-top: 5px;
   margin-bottom: 30px;
+  font-family: Poppins, serif;
 }
 
 .company-name {
   color: #7127ba; /* Purple color for company name */
   font-size: 30px;
+  font-family: Poppins, serif;
 }
 
 .duration,
 .employment-type {
   font-size: 4px;
+  font-family: Poppins, serif;
 }
 
 ul {
   padding-left: 20px;
+  font-family: Poppins, serif;
 }
 
 .tech-stack {
@@ -99,22 +109,32 @@ ul {
   display: flex;
   gap: 10px; /* Add gap between tech stack items */
   flex-wrap: wrap;
+  max-width: 300px;
+  margin-left: 10px;
+  font-family: Poppins, serif;
 }
 
 .tech-stack span {
   background-color: rgba(255, 255, 255, 0.1);
   padding: 5px 10px;
   border-radius: 5px;
+  font-family: Poppins, serif;
 }
 
 .right-part p {
   margin-top: 120px;
+  margin-left: 10px;
+  font-family: Poppins, serif;
 }
 
 @media (max-width: 768px) {
   .experience-item {
     flex-direction: column; /* Stack items vertically in mobile view */
     align-items: flex-start; /* Align items to start in mobile view */
+  }
+
+  .experience-list {
+    margin-left: -20px;
   }
 
   .work-head h1 {
